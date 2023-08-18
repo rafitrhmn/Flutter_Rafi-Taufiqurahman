@@ -1,0 +1,7 @@
+Nama : Rafi Taufiqurahman
+alur program : Flutter kelas D (basic)
+
+Soal Prioritas 1
+
+membuat repository sesuai tugas 
+. berikut link github : https://github.com/rafitrhmn/Flutter_Rafi-Taufiqurahman
