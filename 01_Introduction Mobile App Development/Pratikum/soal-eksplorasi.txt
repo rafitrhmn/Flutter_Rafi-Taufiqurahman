@@ -1,5 +1,6 @@
 nama : Rafi Taufiqurahman
 Program : Flutter kelas D (basic)
+link goggle docs : https://docs.google.com/document/d/1OLB01zClrQfnGHLT5NAnvtUR-xkJwgy_91moQCuW7p4/edit?usp=sharing
 
 Soal eksplorasi
 1.Jelaskan perbedaan antara pengembangan aplikasi mobile secara hybrid (contoh: Flutter) dan pengembangan aplikasi mobile 
