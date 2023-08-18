@@ -1,0 +1,25 @@
+nama : Rafi Taufiqurahman
+Program : Flutter kelas D (basic)
+
+Soal eksplorasi
+1.Jelaskan perbedaan antara pengembangan aplikasi mobile secara hybrid (contoh: Flutter) dan pengembangan aplikasi mobile 
+secara native (contoh: Kotlin untuk pengembangan aplikasi Android).
+	jawaban : 	
+    sebelum menjawab disclaimeer terlebih dahulu. saya menjawab soal ini berdasarkan pengetahuan ku tanpa melihat google atau
+chat gpt terlebih dahulu. 
+    dalam pengembangan aplikasi mobile hybrid dan native  memiliki beberapa keuntugan dan kerugian 
+tersendiri. Hybrid memiliki keuntungan dengan proses development yang cepat. dengan hanya satu codebase code. aplikasi 
+hybrid bisa dijalankan disemua platform (web,android,ios dan destkop). pengembangan aplikasi hybrid juga memiliki packege 
+atau paket paket yang mudah digunakan dan ui/ux nya yg menawan. kekurangan nya, aplikasi hybrid tidak secanggih aplikasi 
+native dengan banyak fitur dan plugin/packege nya. 
+    aplikasi native memiliki banyak keunggulan, pertama fitur dan 
+pengemabnagn aplikasinya lebih beragam dan kompleks. kedua, pengguna android/ios banyak dan berkembang pesat serta pangsa 
+pasar yang luas.kerugiannnya, hanya bisa dijalankan satu sistem operasi dan aplikasi nya berjalan lebih lambat daripada 
+aplikasi hybrid.
+
+
+2. Sebutkan contoh kasus yang tepat untuk pengembangan aplikasi mobile secara hybrid.
+jawaban:
+kasus yang tepat dalam pengemabangn aplikasi hybrid. kita bisa ambil contoh Gojek dan Gopay. Gojek dikembangan dengan hybrid 
+yang bisa ada disemua sistem operasi handphone. selain aplikasi pemesanan, aplikasi bergenre (bergenre gak tuh wkkw) 
+informasi/jurnalistik, kesehatan, pendidikan dan bergenre umum lainnya bisa menggunakan pengembangan aplikasi hybrid.
