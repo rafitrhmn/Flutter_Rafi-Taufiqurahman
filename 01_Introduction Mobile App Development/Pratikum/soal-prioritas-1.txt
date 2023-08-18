@@ -1,5 +1,6 @@
 Nama : Rafi Taufiqurahman
 Program : Flutter kelas D (basic)
+link google docs : https://docs.google.com/document/d/1NDH1e_m92DPDQzFhnItEWxQICplyur4LoCOA1iKi88k/edit?usp=sharing
 
 Soal Prioritas 1
 1.	Tuliskan 5 bahasa pemrograman untuk membuat aplikasi Mobile(contoh: C# untuk Desktop Windows)
@@ -18,3 +19,5 @@ jawaban :
 -	light flow
 -	applock face
 (https://www.liputan6.com/tekno/read/3157984/5-aplikasi-keren-android-ini-tak-ada-di-iphone)
+
+

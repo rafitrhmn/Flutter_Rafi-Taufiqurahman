@@ -1,5 +1,6 @@
 Nama : Rafi Taufiqurahman
 Program : Flutter kelas D (basic)
+link google docs : https://docs.google.com/document/d/1rFAjerOPjWytrZFNzYAGCwolRUKfedNYB-0Mkq2i8o8/edit?usp=sharing
 
 soal prioritas 2
 1.Cari dan tuliskan 5 aplikasi yang berjalan pada sistem operasi IOS namun tidak pada   sistem operasi Android ?
