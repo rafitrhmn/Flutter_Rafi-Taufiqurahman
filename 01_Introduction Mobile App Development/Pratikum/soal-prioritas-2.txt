@@ -1,0 +1,19 @@
+Nama : Rafi Taufiqurahman
+Program : Flutter kelas D (basic)
+
+soal prioritas 2
+1.Cari dan tuliskan 5 aplikasi yang berjalan pada sistem operasi IOS namun tidak pada   sistem operasi Android ?
+jawaban : 
+- ios imessage
+- iTunes
+- iCloud
+- Apple Maps
+- Music Memos
+(https://www.maxmanroe.com/inilah-5-aplikasi-ios-yang-diharapkan-para-pengguna-android-ada-pada-perangkatnya.html)
+
+
+2. Cari 2 buah software yang dapat berjalan pada platform website dan juga Desktop!
+jawaban :
+- Telegram web dan telegram desktop
+- Whatsapp Web dan Whatsapp desktop
+- canva web dan canva desktop
