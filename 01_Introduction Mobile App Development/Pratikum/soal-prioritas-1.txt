@@ -1,0 +1,20 @@
+Nama : Rafi Taufiqurahman
+Program : Flutter kelas D (basic)
+
+Soal Prioritas 1
+1.	Tuliskan 5 bahasa pemrograman untuk membuat aplikasi Mobile(contoh: C# untuk Desktop Windows)
+jawaban :
+- dart = aplikasi android, aplikasi ios, aplikasi dekstkop
+- kotlin = aplikasi android
+- swift = aplikasi ios
+- javascript (react native) = aplikasi android, aplikasi ios,aplikasi destkop, aplikasi web
+- C++, C, C# = aplikasi destkop. (https://academy.kodehive.id/2021/10/15/mengenal-desktop-programming/)
+
+2.	Cari dan tuliskan 5 aplikasi yang berjalan pada sistem operasi Android namun tidak pada sistem operasi iOS.
+jawaban : 
+-	cashtree
+-	float viewer
+-	droidlock
+-	light flow
+-	applock face
+(https://www.liputan6.com/tekno/read/3157984/5-aplikasi-keren-android-ini-tak-ada-di-iphone)
