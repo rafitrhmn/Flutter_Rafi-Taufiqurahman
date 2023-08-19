@@ -1,0 +1,18 @@
+Nama : Rafi Taufiqurahman
+alur program : Flutter kelas D (basic)
+
+Soal Prioritas 2
+- Buat sebuah repository pada Github
+- Buatlah branch pada repository yang terdiri dari:
+    - Branch Master
+    - Branch Development
+    - Branch FeatureA
+    - Branch FeatureB
+- Gunakan command command git seperti push, pull, merge dan stash
+- Implementasikan sebuah penanganan conflict di branch development 
+ketika setelah melakukan merge dari branch featureA lalu merge dari 
+featureB (Conflict dapat terjadi ketika mengerjakan di file dan di 
+line yang sama).
+
+    jawaban :
+repository = https://github.com/rafitrhmn/latihan-alterra
