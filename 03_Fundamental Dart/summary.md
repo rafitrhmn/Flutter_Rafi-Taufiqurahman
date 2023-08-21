@@ -29,3 +29,18 @@ string ucapan = 'hello world;
 int angka = 89;
 final kota = 'lubuk linggau';
 
+membuat operator :
+ariamtik = perhitungan matematis (+,/,-,*,%)
+assingment = perhitungan dengan nilia pada variabel (=,+=,-=,*= dan lain-lain)
+comparison = membnadingkan kesetaraan nilai (==, <,>,>= dan lain-lain)
+logical  = opartor kondisi (&&,|| dan lain-lain)
+
+contoh:
+void main(){
+    var a = 1;  //assingment
+    var b =2;   //assingment
+    print(a+b); //arimatik
+    print (a < b) //comaprioson
+    print (a || b) //logical
+}
+
