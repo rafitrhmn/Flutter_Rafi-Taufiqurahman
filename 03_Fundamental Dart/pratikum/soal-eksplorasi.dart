@@ -1,3 +1,10 @@
+///soal eksplorasi  nomor 1
+///
+//nama : Rafi Taufiqurahman
+///program : Flutter kelas D (Basic)
+///
+///cek kata palindrom
+///
 void main() {
   String input1 = "kasur rusak";
   String input2 = "mobil balap";
