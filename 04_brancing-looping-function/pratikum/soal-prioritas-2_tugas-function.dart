@@ -1,4 +1,4 @@
-///soal prioritas 1
+///soal prioritas 2 tugas function
 ///
 //nama : Rafi Taufiqurahman
 ///program : Flutter kelas D (Basic)
