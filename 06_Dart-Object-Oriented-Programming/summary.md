@@ -1,6 +1,4 @@
-
-///soal prioritas 2 nomor 2
-///
+//summary
 //nama : Rafi Taufiqurahman
 ///program : Flutter kelas D (Basic)
 
