@@ -18,8 +18,8 @@ void main(List<String> args) {
   print('');
 
   //
-  var a = BangunRuang(panjang, lebar, sisi, tinggi);
-  a.volume();
+  var bangun = BangunRuang(panjang, lebar, sisi, tinggi);
+  bangun.volume();
 }
 
 class BangunRuang {
