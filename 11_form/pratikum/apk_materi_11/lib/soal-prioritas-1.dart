@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(MyApp()); //jalankan aplikasi
 }
 
 class MyApp extends StatelessWidget {
@@ -19,6 +19,7 @@ class MyTextWidget extends StatefulWidget {
 }
 
 class _MyTextWidgetState extends State<MyTextWidget> {
+  //variabel class inputtext1, inputtext2 dan list data yang menampung data nama dan nomor
   String inputText1 = '';
   String inputText2 = '';
   List data = [
@@ -26,6 +27,7 @@ class _MyTextWidgetState extends State<MyTextWidget> {
     {'Nama': 'jadu', 'Nomor': '0865 5364 53643'}
   ];
 
+  //method  submit
   void submitForm() {
     // Mengekstrak nilai dari input field
     String nama = inputText1;
@@ -48,6 +50,7 @@ class _MyTextWidgetState extends State<MyTextWidget> {
       inputText2 = '';
     });
 
+    //data tampil ke debug conssole
     tampil();
   }
 
@@ -55,6 +58,7 @@ class _MyTextWidgetState extends State<MyTextWidget> {
     print(data);
   }
 
+  //build halaman
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -74,8 +78,6 @@ class _MyTextWidgetState extends State<MyTextWidget> {
                 const Text(
                   'Create New Contacts',
                   style: TextStyle(
-                    // wordSpacing: 8.0,
-                    // letterSpacing: 8.0,
                     fontSize: 24.0,
                     fontWeight: FontWeight.bold,
                   ),
@@ -85,7 +87,8 @@ class _MyTextWidgetState extends State<MyTextWidget> {
                   width: double.infinity, // Mengisi lebar secara penuh
                   child: Padding(
                     padding: EdgeInsets.only(
-                        left: 50.0, right: 50), // Spasi rata kiri
+                        left: 50.0,
+                        right: 50), // Spasi rata kiri dan spasi rata kanan
                     child: Text(
                       'A dialog is a type of modal window that appears in front of app content to provide critical information, or prompt for a decision to be made.',
                       style: TextStyle(
@@ -96,6 +99,7 @@ class _MyTextWidgetState extends State<MyTextWidget> {
                   ),
                 ),
                 SizedBox(height: 20),
+                //conteiner form nama
                 Container(
                   width: 430,
                   color: Color(0xFFE7E0EC), // Warna latar belakang
@@ -116,8 +120,8 @@ class _MyTextWidgetState extends State<MyTextWidget> {
                       TextField(
                         onChanged: (nama) {
                           setState(() {
-                            inputText1 = nama;
-                            // inputText1 = value;
+                            inputText1 =
+                                nama; //menyimpan inputan ke variabel input text
                           });
                         },
                         decoration: const InputDecoration(
@@ -130,6 +134,7 @@ class _MyTextWidgetState extends State<MyTextWidget> {
                   ),
                 ),
                 const SizedBox(height: 16.0),
+                //form nomor
                 Container(
                   width: 430,
                   color: Color(0xFFE7E0EC), // Warna latar belakang
@@ -143,7 +148,6 @@ class _MyTextWidgetState extends State<MyTextWidget> {
                           'Nomor',
                           style: TextStyle(
                             fontSize: 16.0,
-                            // fontWeight: FontWeight.bold,
                           ),
                         ),
                       ),
@@ -163,6 +167,7 @@ class _MyTextWidgetState extends State<MyTextWidget> {
                   ),
                 ),
                 const SizedBox(height: 16.0),
+                //memanggil kelas button submit
                 Button(
                   onPressed:
                       submitForm, // Panggil submitForm saat tombol ditekan
