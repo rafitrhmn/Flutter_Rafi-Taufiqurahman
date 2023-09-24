@@ -64,7 +64,7 @@ class _MyTextWidgetState extends State<MyTextWidget> {
     return Scaffold(
       body: SingleChildScrollView(
         child: Container(
-          margin: EdgeInsets.only(top: 10, right: 20),
+          margin: EdgeInsets.only(top: 18, right: 20, left: 20),
           child: Center(
             child: Column(
               children: <Widget>[
@@ -166,12 +166,17 @@ class _MyTextWidgetState extends State<MyTextWidget> {
                     ],
                   ),
                 ),
-                const SizedBox(height: 16.0),
+                const SizedBox(height: 18.0),
                 //memanggil kelas button submit
                 Button(
                   onPressed:
                       submitForm, // Panggil submitForm saat tombol ditekan
-                )
+                ),
+                const SizedBox(height: 17),
+                const Text(
+                  'List Contact',
+                  style: TextStyle(fontSize: 20),
+                ),
               ],
             ),
           ),
