@@ -1,0 +1,7 @@
+Petunjuk
+
+jawaban untuk soal prioritas 1 terbagi 2 file. 
+1. file untuk menjalankan aplikasi ada di 13_assets/pratikum/apk_materi_13/lib/soal-prioritas-1/viewmodel/main.dart
+2. file UI nya ada di 13_assets/pratikum/apk_materi_13/lib/soal-prioritas-1/view/halaman1.dart dan 13_assets/pratikum/apk_materi_13/lib/soal-prioritas-1/view/halaman2.dart
+
+saya membagi 2 folder. satu, untuk menjalankan aplikasi dan yang kedua, untuk membuat UI
