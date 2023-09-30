@@ -12,7 +12,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: MyHomePage(),
       routes: {
-        '/newPage': (context) => NewPage(), // Definisikan rute ke halaman baru
+        '/newPage': (context) => NewPage(
+              selectedImagePath: '',
+            ), // Definisikan rute ke halaman baru
       },
     );
   }

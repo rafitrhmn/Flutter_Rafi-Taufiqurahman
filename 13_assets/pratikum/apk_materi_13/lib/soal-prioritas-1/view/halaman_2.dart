@@ -5,10 +5,10 @@ class NewPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Halaman Baru'),
+        title: const Text('tampilkan gambar secara full'),
       ),
       body: const Center(
-        child: Text('Ini adalah halaman baru!'),
+        child: Text('Ini adalaharu!'),
       ),
     );
   }
