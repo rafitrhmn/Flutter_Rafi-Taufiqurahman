@@ -1,0 +1,5 @@
+petunjuk
+
+- untuk menjalankan aplikasi ada difolder 16_flutter-state-management-provider/pratikum/apk_materi_16/lib/viewmodel/main.dart
+- layer UI ada di folder 16_flutter-state-management-provider/pratikum/apk_materi_16/lib/view
+- data disimpan dalam folder 16_flutter-state-management-provider/pratikum/apk_materi_16/lib/model
