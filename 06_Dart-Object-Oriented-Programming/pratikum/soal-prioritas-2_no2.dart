@@ -60,7 +60,6 @@ class Student {
           break;
         case 4:
           exit(0);
-          break;
         default:
           print('Tindakan tidak valid.');
       }
