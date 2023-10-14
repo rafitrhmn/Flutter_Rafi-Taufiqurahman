@@ -1,0 +1,8 @@
+#petunjuk
+
+untuk menjalankan aplikasi => masuk ke direktori : Weekly_1/project/flutter_application_1/lib/kenapa_muda-apk/viewmodel/main.dart
+dan jalankan main.dart
+
+file UI dan body aplikasi ada di direktori : Weekly_1/project/flutter_application_1/lib/kenapa_muda-apk/view/
+
+file build apk ada = dogan store.apk
