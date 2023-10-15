@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:apk_materi_16/viewmodel/main-soal-prioritas-3-api.dart';
+import 'package:apk_materi_16/viewmodel/main-soal-eksplorasi.dart';
 
 void main() {
   testWidgets('Testing UI Elements', (WidgetTester tester) async {
