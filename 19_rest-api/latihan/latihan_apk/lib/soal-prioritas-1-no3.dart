@@ -7,14 +7,20 @@ void main() async {
 }
 
 class User {
+  final int userId;
   final int id;
   final String title;
   final String body;
 
-  User({required this.id, required this.title, required this.body});
+  User(
+      {required this.userId,
+      required this.id,
+      required this.title,
+      required this.body});
 
   factory User.fromJson(Map<String, dynamic> json) {
     return User(
+      userId: json['userId'],
       id: json['id'],
       title: json['title'],
       body: json['body'],
@@ -70,7 +76,14 @@ class _MyAppState extends State<MyApp> {
       Response response = await dio.put(apiUrl, data: dataToUpdate);
 
       if (response.statusCode == 200) {
-        fetchData(); // Fetch updated data after the PUT request succeeds
+        setState(() {
+          userData = User(
+            userId: userData!.userId,
+            id: userData!.id,
+            title: newTitle,
+            body: newBody,
+          );
+        });
         print('Data berhasil diperbarui.');
       } else {
         throw Exception(
@@ -86,15 +99,20 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('soal prioritas 1 nomor 3'),
+          title: Text('Soal Prioritas 1 Nomor 3'),
         ),
         body: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text('title: ${userData?.title ?? "Tidak Ada Data"}'),
-              Text('body: ${userData?.body ?? "Tidak Ada Data"}'),
+              Text('UserId: ${userData?.userId ?? "Tidak Ada Data"}'),
+              Text('Id: ${userData?.id ?? "Tidak Ada Data"}'),
+              Text('Title: ${userData?.title ?? "Tidak Ada Data"}'),
+              Text('Body: ${userData?.body ?? "Tidak Ada Data"}'),
+              SizedBox(
+                height: 7,
+              ),
               ElevatedButton(
                 onPressed: () {
                   updateData();
