@@ -45,8 +45,8 @@ class _SmartphoneFormState extends State<SmartphoneForm> {
   List<String> cameraOptions = ['12 MP', '16 MP', '20 MP', '24 MP'];
   List<String> storageOptions = ['32 GB', '64 GB', '128 GB', '256 GB'];
 
-  OpenAIService openAIService = OpenAIService(
-      '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'); // Replace with your API key
+  OpenAIService openAIService =
+      OpenAIService('api key'); // Replace with your API key
 
   @override
   Widget build(BuildContext context) {

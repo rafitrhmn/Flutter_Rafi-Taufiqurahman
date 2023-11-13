@@ -1,9 +1,0 @@
-import 'package:logger/logger.dart';
-
-final Logger logger = Logger();
-
-// You can configure the logger based on your needs
-void setupLogger() {
-  logger.level = Level.debug; // Set the logging level
-  // You can customize the logger further based on your requirements
-}
