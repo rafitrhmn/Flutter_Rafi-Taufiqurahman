@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'package:shared_preferences/shared_preferences.dart';
-
-import '../viewmodel/main.dart';
-// import 'package:apk_materi_13/soal-prioritas-2/viewmodel/main.dart';
+import '../main.dart';
 
 class MyHomePage extends StatelessWidget {
   late String _selectedImagePath; // Menyimpan path gambar yang dipilih
